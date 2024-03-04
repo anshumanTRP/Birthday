@@ -1,0 +1,17 @@
+.container {
+  border: 10px solid green;
+  height: 500px;
+  width: cover;
+  padding: 1px;
+  background-color: rgb(47, 0, 128);
+  display: flex;
+  flex-direction: column;
+
+  align-items: end;
+}
+.item {
+  padding: 1px;
+
+  background: linear-gradient(green, black);
+  font-size: 90px;
+}

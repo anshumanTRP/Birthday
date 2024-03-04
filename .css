@@ -1,0 +1,111 @@
+h1 {
+  font-family: "Happy Monkey", system-ui;
+
+  color: rgb(252, 253, 255);
+}
+#img1 {
+  width: 200px;
+  display: block;
+
+  margin-top: 10px;
+  border-radius: 30%;
+  border: 8px solid pink;
+}
+h3 {
+  font-family: "Happy Monkey", system-ui;
+  font-weight: bold;
+
+  margin-top: 20px;
+  color: rgb(252, 253, 255);
+}
+h4 {
+  font-family: "Happy Monkey", system-ui;
+  font-weight: bold;
+
+  margin-top: 30px;
+  color: rgb(252, 253, 255);
+}
+body {
+  background: linear-gradient(rgb(59, 59, 243), rgb(180, 5, 34));
+}
+h1,
+h3,
+h4 {
+  text-shadow: 0px 0px 7px black;
+}
+h3,
+h4 {
+  background-color: pink;
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#age {
+  font-size: 20px;
+  text-shadow: 0px 0px 2px black;
+  margin-bottom: 10px;
+}
+#date {
+  font-size: 13px;
+  text-shadow: 0px 0px 2px black;
+  margin: 0;
+}
+
+#hh {
+  font-size: 19px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.img2 {
+  width: 300px;
+  height: 300px;
+  border: 6px solid white;
+  background-image: url(ggtt.jpg);
+  border-radius: 10px;
+  background-size: cover;
+  margin: 0 auto;
+}
+.img2:hover {
+  background-image: url(gspy.gif);
+}
+#imgid:hover {
+  background-image: url(shakira.gif);
+}
+#imgid2:hover {
+  background-image: url(minions.gif);
+}
+#imgid3:hover {
+  background-image: url(jonny.webp);
+}
+#imgid4:hover {
+  background-image: url(funny.webp);
+}
+.img3 {
+  border: 5px solid white;
+  height: 200px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(ggtt.jpg);
+  background-size: 218px;
+}
+.img3:hover {
+  background-image: url(cheer.gif);
+}
+.footer {
+  text-align: center;
+}
+a {
+  text-align: center;
+}
+#hh2 {
+  color: aliceblue;
+  font-style: italic;
+}
